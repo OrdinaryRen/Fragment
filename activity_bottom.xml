@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:background="@color/cl_background">
+
+    <Button
+        android:id="@+id/btn_an1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@color/cl_btn_background"
+        android:text="@string/str_diyi"
+        android:textColor="@color/cl_btn_text"/>
+
+    <Button
+        android:id="@+id/btn_an2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@color/cl_btn_background"
+        android:text="@string/str_dier"
+        android:textColor="@color/cl_btn_text"/>
+
+    <Button
+        android:id="@+id/btn_an3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@color/cl_btn_background"
+        android:text="@string/str_disan"
+        android:textColor="@color/cl_btn_text"/>
+
+    <Button
+        android:id="@+id/btn_an4"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:background="@color/cl_btn_background"
+        android:text="@string/str_disi"
+        android:textColor="@color/cl_btn_text"/>
+
+
+
+</LinearLayout>
